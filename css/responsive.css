@@ -7,6 +7,17 @@ Version:	1.1
 ========================================*/   
 /* Tablet Screen */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.company .choose-left p {
+		font-size: 1.4rem;
+		letter-spacing: 1px;
+		padding-top: 50px;
+		padding-right: 0;
+		text-align: justify;
+		color: #fff;
+		line-height: 24px;
+    	font-weight: 400;
+	}
 /* Header Sticky */
 .section{
 	padding:70px 0px;
@@ -377,9 +388,19 @@ Version:	1.1
 }
 /* Mobile Screen */
 @media only screen and (max-width: 767px) {
-.header.sticky{
-	
-}
+	.company .choose-left p {
+		font-size: 1.2rem;
+		letter-spacing: 1px;
+		padding-top: 50px;
+		padding-right: 0;
+		text-align: justify;
+		color: #fff;
+		line-height: 24px;
+    	font-weight: 400;
+	}
+	.header.sticky{
+		
+	}
 .header.sticky .header-bottom{
 	position:absolute;
 	z-index:999;
